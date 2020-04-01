@@ -1,7 +1,7 @@
 .todo-item-list {
   h3 {
     text-align: center;
-    color: #606A7E;
+    color: $gray;
     letter-spacing: 1.2px;
   }
   ul {
@@ -16,14 +16,14 @@
       justify-content: space-around;
       margin-bottom: 1rem;
       background-color: #fff;
-      border: 1px solid #606A7E;
+      border: 1px solid $gray;
       border-radius: 6px;
       font-size: 1.2rem;
-      color: #606A7E;
+      color: $gray;
       transition: transform 0.5s;
       &.done {
-        background-color: #ACA9C5;
-        border: 1px solid #ACA9C5; 
+        background-color: $steelGray;
+        border: 1px solid $steelGray; 
         color: #fff;
       }
       &:hover {
@@ -39,7 +39,7 @@
         width: 90%;
         height: 2.5rem;
         padding-left: 1rem;
-        border: 1px solid #ACA9C5;
+        border: 1px solid $steelGray;
         border-radius: 6px;
         font-size: 1rem;
       }
@@ -47,7 +47,7 @@
       input[type=checkbox] {
         display: none;
         &:checked + label:before {
-          color: #54CF8D;
+          color: $green;
         }
       }
 
@@ -59,7 +59,7 @@
           display: inline-block;
           width: 1.5rem;
           height: 1.5rem;
-          border: 1px solid #606A7E;
+          border: 1px solid $gray;
           border-radius: 50%;
           text-align: center;
           line-height: 1.5rem;
@@ -75,14 +75,14 @@
         cursor: pointer;
         color: #fff;
         border-radius: 6px;
-        background-color: #54CF8D;
-        border-color: #54CF8D;
+        background-color: $green;
+        border-color: $green;
         &:hover {
           opacity: 0.9;
         }
         &:nth-of-type(2) {
-          background-color: #EA4C88;
-          border-color: #EA4C88;
+          background-color: $red;
+          border-color: $red;
         }
       }
     } 

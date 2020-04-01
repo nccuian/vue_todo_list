@@ -3,7 +3,7 @@
     width: 100%;
     height: 3.5rem;
     padding-left: 1rem;
-    border: 1px solid #606A7E;
+    border: 1px solid $gray;
     border-radius: 6px;
     margin-bottom: 1rem;
     font-size: 1.2rem;
@@ -11,6 +11,6 @@
   h5 {
     margin: 0;
     padding-left: 1rem;
-    color: #EA4C88;
+    color: $red;
   }
 }

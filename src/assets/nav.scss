@@ -12,13 +12,13 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
-    border: 2px solid #606A7E;
+    border: 2px solid $gray;
     border-radius: 6px;
-    background-color: #606A7E;
+    background-color: $gray;
     cursor: pointer;
     &.router-link-active {
       background-color: #fff;
-      color: #606A7E;
+      color: $gray;
     }
   }
 }
