@@ -2,6 +2,7 @@
 
 a simple CURD TodoList app
 (useing: vue, vuex, vue-router, localStorage)
+preview: https://nccuian.github.io/vue_todo_list/dist/index.html#/
 
 ## Project setup
 ```
