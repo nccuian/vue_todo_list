@@ -1,0 +1,16 @@
+@import '@/assets/nav.scss';
+@import '@/assets/todo_input.scss';
+@import '@/assets/todo_item_list.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F6FA;
+}
+
+#app {
+  max-width: 660px;
+  margin: 3rem auto 0;
+}

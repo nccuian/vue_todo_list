@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 2rem;
+
+  a {
+    width: 30%;
+    height: 3rem;
+    margin: calc(10% / 6);
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #606A7E;
+    border-radius: 6px;
+    background-color: #606A7E;
+    cursor: pointer;
+    &.router-link-active {
+      background-color: #fff;
+      color: #606A7E;
+    }
+  }
+}

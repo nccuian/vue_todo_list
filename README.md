@@ -1,5 +1,8 @@
 # todo_list
 
+a simple CURD TodoList app
+(useing: vue, vuex, vue-router, localStorage)
+
 ## Project setup
 ```
 npm install
