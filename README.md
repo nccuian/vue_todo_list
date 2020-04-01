@@ -1,6 +1,6 @@
 # todo_list
 
-a simple CURD TodoList app<br>
+a simple CRUD TodoList app<br>
 (useing: vue, vuex, vue-router, localStorage)<br>
 preview: https://nccuian.github.io/vue_todo_list/dist/index.html#/
 
