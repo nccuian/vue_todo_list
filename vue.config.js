@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue_todo_list/'
+    ? '/vue_todo_list/dist'
     : '/',
   css: {
     loaderOptions: {
